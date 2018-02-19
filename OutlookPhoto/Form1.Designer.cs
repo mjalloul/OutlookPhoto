@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OutlookPhotoForm));
             this.HelloLabel = new System.Windows.Forms.Label();
             this.CurrentPhotoLabel = new System.Windows.Forms.Label();
             this.CurrentPhotoPictureBox = new System.Windows.Forms.PictureBox();
@@ -201,6 +202,7 @@
             this.Controls.Add(this.CurrentPhotoPictureBox);
             this.Controls.Add(this.CurrentPhotoLabel);
             this.Controls.Add(this.HelloLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximumSize = new System.Drawing.Size(484, 667);
             this.MinimumSize = new System.Drawing.Size(484, 667);
