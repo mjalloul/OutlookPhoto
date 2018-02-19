@@ -3,6 +3,11 @@ OutlookPhoto is a tool that allows you to upload your photo to Exchange Server 2
 
 **NOTE:** You do _not_ need this tool unless you are still using Outlook 2010 as the same functionality is already integrated in Outlook versions newer than Outlook 2010.
 
+# Installation
+The latest version of the tool can be installed from the following page:
+
+https://outlookphoto.azurewebsites.net/install/
+
 # Advanced Features
 If for some reason OutlookPhoto is displaying the wrong username, you can specify a username explicitly from the command-line using the following syntax:
 ```
@@ -28,3 +33,6 @@ https://archive.codeplex.com/?p=outlookphoto
 Date | Notes
 --- | ---
 2/17/2018 | Created this repoistory and moved the source code for the EXE only after upgrading the program to use .NET 4.6.1.
+
+# Issues? Problems? Bugs?
+Please report any issues, problems, or bugs in the Issues section of this repo.
