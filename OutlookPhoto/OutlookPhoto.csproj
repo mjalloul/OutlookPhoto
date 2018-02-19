@@ -30,13 +30,13 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl Condition="'$(InstallUrl)' == ''">https://outlookphoto.azurewebsites.net/install/</InstallUrl>
-    <SupportUrl Condition="'$(SupportUrl)' == ''">https://outlookphoto.azurewebsites.net</SupportUrl>
-    <ErrorReportUrl Condition="'$(ErrorReportUrl)' == ''">https://outlookphoto.azurewebsites.net</ErrorReportUrl>
+    <SupportUrl Condition="'$(SupportUrl)' == ''">https://github.com/mjalloul/OutlookPhoto/issues</SupportUrl>
+    <ErrorReportUrl Condition="'$(ErrorReportUrl)' == ''">https://github.com/mjalloul/OutlookPhoto/issues</ErrorReportUrl>
     <ProductName>Outlook Photo</ProductName>
     <PublisherName Condition="'$(PublisherName)' == ''">Mohammad Jalloul</PublisherName>
     <SuiteName>Outlook Tools</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
-    <WebPage Condition="'$(WebPage)' == ''">index.htm</WebPage>
+    <WebPage>index.htm</WebPage>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion Condition="'$(ApplicationVersion)' == ''">1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
@@ -131,6 +131,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="publish.htm" />
     <Content Include="user.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
